@@ -1,0 +1,23 @@
+
+.actualcardimage{
+	max-height: 60% !important;
+	margin-top: 20px !important;
+
+}
+
+.portfoliocard{
+	height: 400px;
+	width: 100%;
+	opacity: 0.9;
+}
+
+
+.descrip{
+	color: white !important;
+	font-family: 'Open Sans Condensed';
+	font-size: 20px;
+}
+.projecttitle{
+	font-family: 'Open Sans Condensed';
+	
+}

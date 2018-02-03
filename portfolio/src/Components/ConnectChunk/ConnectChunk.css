@@ -1,0 +1,10 @@
+
+
+h3{
+  background-color: rgba(242, 223, 155, 0.5) !important;
+  border: 4px black solid;
+  border-radius: 10px;
+  font-family: 'Open Sans Condensed';
+  padding-bottom: 5px;
+  font-weight: bolder;
+}

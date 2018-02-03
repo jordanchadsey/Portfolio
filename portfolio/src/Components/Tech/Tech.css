@@ -1,0 +1,49 @@
+.profilepic {
+  max-height: 300px;
+  border: 5px solid black;
+}
+
+.intronode {
+  max-height: 300px;
+  margin-left: 20px;
+}
+
+.biofront{
+  margin-right: 20px;
+}
+.sticker{
+  max-width: 100px !important;
+}
+.material-tooltip{
+  color: lemonchiffon;
+  font-weight: bolder;
+  border-radius: 5px;
+  display:block;
+
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+
+}
+.material-tooltip .backdrop{
+background-color: rgba(0,0,0,0.8) !important;
+}
+.sticker{
+  vertical-align: middle;
+}
+
+.stickerholderz{
+
+}
+h3{
+  background-color: rgba(242, 223, 155, 0.5) !important;
+  border: 4px black solid;
+  border-radius: 10px;
+  font-family: 'Open Sans Condensed';
+  padding-bottom: 5px;
+  font-weight: bolder;
+}
+.sectiontitle{
+  background-color: rgba(255, 92, 93, 0.4) !important;
+  font-size: 50px;
+  background-color:
+}

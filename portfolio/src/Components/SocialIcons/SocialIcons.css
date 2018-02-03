@@ -1,0 +1,80 @@
+.social-icons a i.fa{
+	font-size: 25px;
+	color: #FFFFFF !important;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 2px !important;
+	text-shadow: 0.5px  -0px #FFFFFF;
+
+	transition: all .5s ease 0s;
+	-webkit-transition: all .5s ease 0s;
+	-moz-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
+	-ms-transition: all .5s ease 0s;
+}
+.social-icons a i.fa-github-alt:hover{
+	color: darkgrey !important;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+.social-icons a i.fa-twitter:hover{
+	color: #55ACEE !important;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+.social-icons a i.fa-behance:hover{
+	color: #0F56EA !important;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+.social-icons a i.fa-behance{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.social-icons a i.fa-linkedin:hover{
+	color: #007BB6 !important;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+.social-icons a i.fa-stack-overflow:hover{
+	color: #F98639 !important;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+.social-icons{
+
+	color: #FFFFFF !important;
+	  margin-bottom: 5px !important;
+		margin-top: 25px !important;
+		margin-left: 1px !important;
+
+
+
+
+}
+
+.socialicon {
+  border: 2px solid lemonchiffon;
+	background: black;
+  border-radius: 5px;
+	float: left;
+	margin: 5px !important;
+	margin: 0 auto;
+
+}

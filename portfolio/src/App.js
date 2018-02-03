@@ -1,27 +1,29 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
-import './App.css';
-
+import NavBar from "./Components/NavBar";
+import SocialIcons from "./Components/SocialIcons";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Connect from "./pages/Connect";
+import Posts from "./pages/Posts";
 class App extends Component {
   render() {
     return(
       <Router>
+      <div>
+        <NavBar/>
         <div className = "container">
-        <nav className = " white z-depth-0">
-            <div className=" transparent nav-wrapper z-depth-0">
-              <a href="#" className="title black-text">Jordan Chadsey</a>
-                <ul id="nav-mobile" className="right  transparent  hide-on-med-and-down black-text">
-                    <li className ="black-text"><Link to = "/">Home</Link></li>
-                    <li><Link className= "black-text link" to = "/about">About</Link></li>
-                    <li><Link className= "black-text link" to = "/projects">Projects</Link></li>
-                    <li><Link className= "black-text link" to = "/connect">Connect</Link></li>
-                    <li><Link className= "black-text link" to = "/posts">Posts</Link></li>
-    </ul>
-  </div>
-</nav>
-</div>
 
-    </Router>
+
+            <Route exact path='/'component={Home}/>
+            <Route path='/about' component={About} />
+            <Route path='/portfolio' component={Portfolio}/>
+            <Route path='/connect' component={Connect}/>
+            <Route path='/posts' component={Posts}/>
+        </div>
+      </div>
+      </Router>
     );
   }
 }

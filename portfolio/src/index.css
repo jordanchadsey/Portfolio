@@ -2,26 +2,28 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: url()
+  background-image: url('https://i.imgur.com/PRYAzUY.jpg?1');
+  background-size: cover;
+  background-attachment: fixed;
+  background-origin: padding-box;
+
+
 }
 
 .container{
-  opacity: 0.7;
-  background-color: black;
   width: 100%;
 
-}
-
-.link {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 25px;
-  padding-top: 10px;
-  padding-right: 30px;
 
 }
 
-.title {
-  font-family: 'Barrio', cursive;
-  font-size: 50px;
-  margin-top: 30px !important;
+
+
+div {
+  background-color: unset !important;
+}
+
+.homechunk{
+ margin-top: 50px;
+ margin-left: 40px!important;
+ margin-right: 40px !important;
 }
